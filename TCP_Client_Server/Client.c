@@ -9,7 +9,7 @@
 int main(int argc,char *argv[ ])
 {
         int create_socket;
-        int bufsize = 1024;
+        int bufsize = 2048;
         char *buffer = malloc(bufsize);
         char fname[256];
         struct sockaddr_in address;
